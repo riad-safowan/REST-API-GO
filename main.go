@@ -117,9 +117,9 @@ func handleRequest() {
 func main() {
 
 	students = append(students, Student{Id: 1, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
-	students = append(students, Student{Id: 2, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
-	students = append(students, Student{Id: 3, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
-	students = append(students, Student{Id: 4, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
+	students = append(students, Student{Id: 2, Name: "Rahil Bantu", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
+	students = append(students, Student{Id: 3, Name: "Tanvir Fokir", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
+	students = append(students, Student{Id: 4, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "India"}})
 
 	handleRequest()
 }
