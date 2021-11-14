@@ -6,7 +6,6 @@ import (
 	"log"
 	"net/http"
 	"strconv"
-
 	"github.com/gorilla/mux"
 )
 
@@ -123,5 +122,4 @@ func main() {
 	students = append(students, Student{Id: 4, Name: "Riad Safowan", Age: 21, Courses: []string{"Bangla", "English"}, Address: &Address{City: "Dhaka", Country: "Bangladesh"}})
 
 	handleRequest()
-
 }
